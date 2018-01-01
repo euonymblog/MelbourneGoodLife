@@ -13,7 +13,7 @@ layout: default
     <div class="fpCategory">
       <h2>Drink</h2>
 
-      {% for post in site.categories.Drink %}
+      {% for post in site.categories.Drink limit:1 %}
 
         <div class="fpItem grid">
           <div class="col-4_sm-6_xs-12 fpCatImage" style="background-image: url('{{ post.image }}'); background-repeat: no-repeat; background-size: cover; background-position: center;">
@@ -39,7 +39,7 @@ layout: default
     <div class="fpCategory">
       <h2>Eat</h2>
 
-      {% for post in site.categories.Eat %}
+      {% for post in site.categories.Eat limit:1 %}
 
         <div class="fpItem grid">
           <div class="col-4_sm-6_xs-12 fpCatImage" style="background-image: url('{{ post.image }}'); background-repeat: no-repeat; background-size: cover; background-position: center;">
@@ -64,7 +64,7 @@ layout: default
     <div class="fpCategory">
       <h2>Shop</h2>
 
-      {% for post in site.categories.Shop %}
+      {% for post in site.categories.Shop limit:1 %}
 
         <div class="fpItem grid">
           <div class="col-4_sm-6_xs-12 fpCatImage" style="background-image: url('{{ post.image }}'); background-repeat: no-repeat; background-size: cover; background-position: center;">
@@ -89,7 +89,7 @@ layout: default
     <div class="fpCategory">
       <h2>See</h2>
 
-      {% for post in site.categories.See %}
+      {% for post in site.categories.See limit:1 %}
 
         <div class="fpItem grid">
           <div class="col-4_sm-6_xs-12 fpCatImage" style="background-image: url('{{ post.image }}'); background-repeat: no-repeat; background-size: cover; background-position: center;">
