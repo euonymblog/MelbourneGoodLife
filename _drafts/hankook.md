@@ -1,17 +1,24 @@
 ---
 layout: post
 title: Hankook
-image: /charcoallane.jpeg
+image: /images/Screen Shot 2017-05-07 at 10.34.41.png
 category: Eat
-address: '136 Gertrude Street, 3065 Fitzroy'
-website: 'https://www.charcoallane.com.au/'
+address: '28 Nelson Street, 3183 Balaclava'
+website: 'https://www.instagram.com/explore/locations/727512782/hankook-balaclava/'
 stars:
   - star
   - star
   - star
   - star
-breakfast: false
+breakfast: true
 dinner: true
-wifi: false
-date: 2018-01-01 14:30:00
+wifi: true
+date: 2018-01-01 15:50:00
 ---
+
+
+I should first offer up an explanation - I lived in Korea as a child and it’s one of my favourite cuisines. In 2013 I did a thing called the Kimchi Project, in which I tried to eat in all the Korean restaurants in London’s Zone 1 in a year (I failed, btw). So when we walked past what had been a non-descript cafe and saw Hangul (Korean script) going up, I was very excited.&nbsp;
+
+I’ve been to Hankook (which means Korean in Korean) several times now, both in the day, when it is a Melbourne breakfast cafe, and in the evening, when it goes more full-on Korean. To be fair, there is definitely a Korean tinge during the day, with Japchae (sweet potato glass noodles with beef or tofu) and the stand-out-good kimchi fritters. There are also a few dishes that have bulgogi (marinated beef), and the chips covered in cheese and kimchi are absolutely fab. We’re loved the evening meals too, from slow cooked ribs to the unsual banchan (side dishes) such as water kimchi.
+
+If a full-on Korean restaurant would be outside your comfort zone, Hankook is a great way to get a taste of one of the world’s great cuisines. If you have no interest in Korean food, Hankook is still worth a trip, with really good coffee and an innovative take on many of the stalwarts of Melbourne cafe menus.&nbsp;
