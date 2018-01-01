@@ -1,17 +1,24 @@
 ---
 layout: post
 title: Red Betty
-image: /charcoallane.jpeg
-category: Eat
-address: '136 Gertrude Street, 3065 Fitzroy'
-website: 'https://www.charcoallane.com.au/'
+image: /images/mainimage.jpg
+category: Drink
+address: 'Rear of 859 Sydney Road, Brunswick 3056'
+website: 'http://www.redbetty.com.au/'
 stars:
   - star
   - star
   - star
   - star
 breakfast: false
-dinner: true
+dinner: false
 wifi: false
-date: 2018-01-01 14:30:00
+date: 2018-01-01 19:00:00
 ---
+
+
+Red Betty is down an alleyway in Brunswick. Just visiting it feels a bit louche and exciting, as you have to know it is there. Entering gives the same feeling of a speakeasy or private bar, with a quiet corridor leading to a low-lit barroom. But that's where the edginess ends - once inside, it's like being at a friend's house, but with a bar. Which is sort of what it is, as one of the owners is a friend of mine. The four owners have created a really friendly atmosphere, where anyone coming in is treated like one of the gang.&nbsp;
+
+They have Collingwood beer on tap and an array of wines and spirits. The cocktail menu is composed of the classics. A small stage sometimes welcomes live music and there is a set of turntables which play eclectic tunes when they're not being used for getting people dancing.
+
+My days of crushing into bars with a queue three people deep and banging house music. That's why Red Betty is one of my favourite places to drink these days - good tunes and good company shared over a glass or two.
