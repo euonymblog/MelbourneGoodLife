@@ -1,0 +1,68 @@
+---
+layout: default
+---
+<!-- HEADER FROM DEFAULT -->
+<div class="itemHeading">
+  <h2> {{page.title}}</h2>
+</div>
+
+
+<div class="grid wholeItem">
+  <div class="col-1">
+
+  </div>
+
+<!-- SIDEBAR -->
+  <section class="col-4_sm-6_xs-12 itemSidebar">
+    <div class="itemImage itemField" style="background-image: url('{{ page.image }}'); background-position: center; background-size: cover; background-repeat: none;">
+    </div>
+
+    <div class="itemField itemCategory">
+      <h6>Category:</h6>{{ page.category }}
+    </div>
+    <div class="itemField itemAddress">
+      <h6>Address: </h6>{{ page.address }}
+    </div>
+
+    <div class="itemField itemWebsite">
+      <a href="{{ page.website }}" target="_blank"><h6>Website</h6></a>
+    </div>
+
+    <div class="itemField itemStars">
+      <h6>My star rating</h6>
+        {% for star in page.stars %}
+          <i class="fa fa-star" aria-hidden="true"></i>
+        {% endfor %}
+    </div>
+    <div class="grid">
+      {% if page.breakfast == true %}
+        <div class="itemField breakfast tooltip col-4">
+          <span class="tooltiptext">Good for breakfast/lunch</span><i class="fa fa-coffee" aria-hidden="true"></i>
+        </div>
+      {% endif %}
+
+      {% if page.dinner == true %}
+        <div class="itemField dinner tooltip col-4">
+            <span class="tooltiptext">Good for dinner</span><i class="fa fa-cutlery" aria-hidden="true"></i>
+        </div>
+      {% endif %}
+
+      {% if page.wifi == true %}
+        <div class="itemField wifi tooltip col-4">
+            <span class="tooltiptext">Has wifi</span><i class="fa fa-wifi" aria-hidden="true"></i>
+        </div>
+      {% endif %}
+    </div>
+
+
+  </section>
+
+
+
+<!-- MAIN CONTENT -->
+
+  <div class="col-7_sm-6_xs-12 itemContent">
+    {{content}}
+  </div>
+
+</div>

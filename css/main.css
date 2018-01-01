@@ -1,0 +1,180 @@
+*{
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  /* border: 1px solid pink; */
+
+}
+
+/* This is the default section */
+
+h1 {
+  font-family: 'Life Savers', cursive;
+  font-size: 4rem;
+  color: firebrick;
+  text-decoration: bold;
+}
+
+h2 {
+  font-family: 'Life Savers', cursive;
+}
+
+h3, h4 {
+  font-family: 'Dosis', sans-serif;
+}
+
+h5, h6, p, span {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+}
+
+h2 {
+  font-size: 3rem;
+  color: firebrick;
+}
+
+h3 {
+  font-size: 2rem;
+  color: firebrick;
+}
+
+h4 {
+  font-size: 1.75rem;
+}
+
+a {
+  text-decoration: none;
+  color: firebrick;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.nav {
+  text-align: center;
+  margin-top: 2%;
+  font-size: 2rem;
+}
+
+.nav a {
+  font-family: 'Life Savers', cursive;
+}
+
+footer {
+  font-size: 3rem;
+  text-align: center;
+}
+
+/* This is the category layout section */
+
+.catTitle {
+  text-align: center;
+}
+
+.catTitle h1 {
+  margin: 3% 0 3% 0;
+}
+
+.catPageItem {
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-bottom: 5%;
+}
+
+.catPageImage {
+  padding-right: 2%;
+}
+
+.catPageTitle {
+  margin-bottom: 2%;
+}
+
+.catPageSnippet {
+
+}
+
+/* This is the post layout section */
+
+.itemHeading {
+  text-align: center;
+  margin: 2%
+}
+
+.itemImage {
+  min-height: 40vh;
+  width: 100%;
+
+}
+
+.itemField {
+  margin-bottom: 3%;
+
+}
+
+.itemAddress, .itemStars, .itemWebsite, .itemCategory, .wifi, .breakfast, .dinner {
+  color: firebrick;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    /*width: 120px;*/
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    font-size: 0.75rem;
+    background-color: white;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.wholeItem {
+  margin-bottom: 5%;
+}
+
+.itemContent p {
+  margin-bottom: 2%;
+}
+
+/* This is the front page section */
+
+#heroImage {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url('../images/laneway.png');
+  min-height: 70vh;
+  text-align: center;
+  padding: 7%;
+
+}
+
+#heroImage h2, h3 {
+  margin-top: 5%;
+}
+
+.social h2 {
+  margin: 3% 0 3% 0;
+  text-align: center;
+}
+
+.fpCategory h2{
+  text-align: center;
+  margin-top: 5%;
+}
+ .fpCatImage {
+   min-height: 30vh;
+ }
+
+ .fpItem h3, .summary {
+   text-align: center;
+ }
+
+ .fpItem {
+   margin-top: 3%;
+ }

@@ -1,0 +1,120 @@
+---
+layout: default
+---
+<div>
+  <div id="heroImage">
+    <h1>The Melbourne Good Life</h1>
+    <h3>Exploring my adopted hometown of Melbourne, Victoria, Australia.</h3>
+  </div>
+</div>
+
+<div class="grid">
+  <div class="col-6_sm-12">
+    <div class="fpCategory">
+      <h2>Drink</h2>
+
+      {% for post in site.categories.Drink %}
+
+        <div class="fpItem grid">
+          <div class="col-4_sm-6_xs-12 fpCatImage" style="background-image: url('{{ post.image }}'); background-repeat: no-repeat; background-size: cover; background-position: center;">
+          </div>
+          <div class="col-8_sm-6_xs-12">
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <p class="summary">
+              <span class="date"> {{ post.date | date: '%B %d, %Y' }} </span>
+            </p>
+            <p>
+              {{ post.excerpt }}
+            </p>
+          </div>
+
+        </div>
+
+      {% endfor %}
+
+    </div>
+  </div>
+
+  <div class="col-6_sm-12">
+    <div class="fpCategory">
+      <h2>Eat</h2>
+
+      {% for post in site.categories.Eat %}
+
+        <div class="fpItem grid">
+          <div class="col-4_sm-6_xs-12 fpCatImage" style="background-image: url('{{ post.image }}'); background-repeat: no-repeat; background-size: cover; background-position: center;">
+          </div>
+          <div class="col-8_sm-6_xs-12">
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <p class="summary">
+              <span class="date"> {{ post.date | date: '%B %d, %Y' }} </span>
+            </p>
+            <p>
+              {{ post.excerpt }}
+            </p>
+          </div>
+
+        </div>
+
+      {% endfor %}
+
+    </div>
+  </div>
+  <div class="col-6_sm-12">
+    <div class="fpCategory">
+      <h2>Shop</h2>
+
+      {% for post in site.categories.Shop %}
+
+        <div class="fpItem grid">
+          <div class="col-4_sm-6_xs-12 fpCatImage" style="background-image: url('{{ post.image }}'); background-repeat: no-repeat; background-size: cover; background-position: center;">
+          </div>
+          <div class="col-8_sm-6_xs-12">
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <p class="summary">
+              <span class="date"> {{ post.date | date: '%B %d, %Y' }} </span>
+            </p>
+            <p>
+              {{ post.excerpt }}
+            </p>
+          </div>
+
+        </div>
+
+      {% endfor %}
+
+    </div>
+  </div>
+  <div class="col-6_sm-12">
+    <div class="fpCategory">
+      <h2>See</h2>
+
+      {% for post in site.categories.See %}
+
+        <div class="fpItem grid">
+          <div class="col-4_sm-6_xs-12 fpCatImage" style="background-image: url('{{ post.image }}'); background-repeat: no-repeat; background-size: cover; background-position: center;">
+          </div>
+          <div class="col-8_sm-6_xs-12">
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <p class="summary">
+              <span class="date"> {{ post.date | date: '%B %d, %Y' }} </span>
+            </p>
+            <p>
+              {{ post.excerpt }}
+            </p>
+          </div>
+
+        </div>
+
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+
+<div id="instagram" class="social">
+  <a href="https://www.instagram.com/melbournegoodlife/" target="_blank"><h2>Instagram</h2></a>
+      <!-- SnapWidget -->
+    <script src="https://snapwidget.com/js/snapwidget.js"></script>
+    <iframe src="https://snapwidget.com/embed/488406" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; "></iframe>
+</div>
