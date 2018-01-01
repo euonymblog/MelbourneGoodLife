@@ -178,3 +178,12 @@ footer {
  .fpItem {
    margin-top: 3%;
  }
+
+ @media only screen and (max-width: 800px) {
+
+   #heroImage {
+     background-image: none;
+   }
+
+
+ }
