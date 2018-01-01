@@ -185,5 +185,8 @@ footer {
      background-image: none;
    }
 
+   .catPageImage {
+     min-height: 30vh;
+   }
 
  }
