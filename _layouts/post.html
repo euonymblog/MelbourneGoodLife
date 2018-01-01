@@ -52,6 +52,23 @@ layout: default
             <span class="tooltiptext">Has wifi</span><i class="fa fa-wifi" aria-hidden="true"></i>
         </div>
       {% endif %}
+
+      {% if page.child == true %}
+        <div class="itemField child tooltip col-4">
+            <span class="tooltiptext">Child-friendly</span><i class="fa fa-child" aria-hidden="true"></i>
+        </div>
+      {% endif %}
+
+      {% if page.disability == true %}
+        <div class="itemField disability tooltip col-4">
+            <span class="tooltiptext">Disabled access</span><i class="fa fa-wheelchair" aria-hidden="true"></i>
+        </div>
+      {% endif %}
+      {% if page.eco == true %}
+        <div class="itemField disability tooltip col-4">
+            <span class="tooltiptext">Eco-friendly</span><i class="fa fa-leaf" aria-hidden="true"></i>
+        </div>
+      {% endif %}
     </div>
 
 
