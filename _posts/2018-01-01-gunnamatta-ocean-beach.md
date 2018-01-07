@@ -14,6 +14,7 @@ stars:
 breakfast: false
 dinner: false
 wifi: false
+child: true
 date: 2018-01-01 15:30:00
 ---
 

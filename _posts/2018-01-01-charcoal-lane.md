@@ -13,6 +13,7 @@ stars:
 breakfast: false
 dinner: true
 wifi: false
+disability: true
 date: 2018-01-01 14:30:00
 ---
 

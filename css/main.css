@@ -113,7 +113,7 @@ footer {
 
 }
 
-.itemAddress, .itemStars, .itemWebsite, .itemCategory, .wifi, .breakfast, .dinner {
+.itemAddress, .itemStars, .itemWebsite, .itemCategory, .wifi, .breakfast, .dinner, .child, .disability, .eco {
   color: firebrick;
 }
 
