@@ -22,6 +22,6 @@ You might have guessed from [other posts](/eat/2018/01/01/the-european.html) tha
 
 So you can imagine my delight when I found the Small French Bar. It is, as the name suggests, small and the punters are packed in pretty tight. The menu offers real French classics - confit de canard, steak - as well as cheese and cold meat plates. On Thursdays they have oysters for $1, and I'd love to know where they get them from as they are some of the best I have had here, especially served as they are with a little teaspoon of raspberry vinaigrette.
 
-The wine are all French. I've often had the Muscadet, as I'm eating seafood, but have also enjoyed a few of the other drops on offer.&nbsp;
+The wine are all French. I've often had the Muscadet, as I'm eating seafood, but have also enjoyed a few of the other drops on offer.
 
 For a homesick European with a cheese and oyster obsession, this place is a real find.
