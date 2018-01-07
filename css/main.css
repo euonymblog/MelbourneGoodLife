@@ -183,6 +183,7 @@ footer {
 
    #heroImage {
      background-image: none;
+     background-color: darkgrey;
    }
 
    .catPageImage {
