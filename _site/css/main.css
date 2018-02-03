@@ -10,14 +10,14 @@
 /* This is the default section */
 
 h1 {
-  font-family: 'Life Savers', cursive;
-  font-size: 4rem;
+  font-family: 'Glass Antiqua', cursive;
+  font-size: 6rem;
   color: firebrick;
   text-decoration: bold;
 }
 
 h2 {
-  font-family: 'Life Savers', cursive;
+  font-family: 'Glass Antiqua', cursive;
 }
 
 h3, h4 {
@@ -30,7 +30,7 @@ h5, h6, p, span {
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: firebrick;
 }
 
@@ -59,7 +59,7 @@ a:hover {
 }
 
 .nav a {
-  font-family: 'Life Savers', cursive;
+  font-family: 'Glass Antiqua', cursive;
 }
 
 footer {
@@ -77,29 +77,28 @@ footer {
   margin: 3% 0 3% 0;
 }
 
-.catPageItem {
-  padding-left: 2%;
-  padding-right: 2%;
-  margin-bottom: 5%;
-}
-
 .catPageImage {
-  padding-right: 2%;
+  min-height: 40vh;
+  background-color: firebrick;
 }
 
-.catPageTitle {
-  margin-bottom: 2%;
+.catPageItem {
+border-top: 3px solid firebrick;
+}
+
+.catPageDetail {
+padding-top: 2%;
 }
 
 .catPageSnippet {
-
+  margin-top: 3%;
 }
 
 /* This is the post layout section */
 
 .itemHeading {
   text-align: center;
-  margin: 2%
+  margin: 5%
 }
 
 .itemImage {
@@ -113,7 +112,7 @@ footer {
 
 }
 
-.itemAddress, .itemStars, .itemWebsite, .itemCategory, .wifi, .breakfast, .dinner {
+.itemAddress, .itemStars, .itemWebsite, .itemCategory, .wifi, .breakfast, .dinner, .child, .disability, .eco {
   color: firebrick;
 }
 
@@ -154,35 +153,60 @@ footer {
 
 }
 
-#heroImage h2, h3 {
-  margin-top: 5%;
-}
-
-.social h2 {
+/* .social h2 {
   margin: 3% 0 3% 0;
   text-align: center;
-}
+} */
 
 .fpCategory h2{
   text-align: center;
   margin-top: 5%;
+  padding: 0, 5%, 0, 5%;
 }
  .fpCatImage {
-   min-height: 30vh;
+   min-height: 50vh;
  }
 
- .fpItem h3, .summary {
+ .fpItem h3 {
    text-align: center;
  }
 
  .fpItem {
    margin-top: 3%;
+
  }
+
+ .fpCatTitle{
+  background-color: firebrick;
+}
+
+.fpCatTitle a {
+  color: white;
+}
+
+ .fpFeature h3 {
+   text-align: center;
+   line-height: 50vh;
+   margin: 0, 3%, 0, 3%;
+ }
+
+ .fpHeading {
+   background-color: firebrick;
+ }
+
+.fpHeading h2 {
+  text-align: center;
+  color: white;
+}
+
+
+
 
  @media only screen and (max-width: 800px) {
 
    #heroImage {
      background-image: none;
+     background-color: darkgrey;
    }
 
    .catPageImage {

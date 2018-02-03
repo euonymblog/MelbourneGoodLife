@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<!-- HEADER FROM DEFAULT -->
+<div class="itemHeading">
+  <h2> {{page.title}}</h2>
+</div>
+
+<div class="grid wholeItem">
+  <div class="col-1">
+
+  </div>
+
+<!-- SIDEBAR -->
+  <section class="col-4_sm-12_xs-12 itemSidebar">
+    <div class="itemImage itemField" style="background-image: url('{{ page.image }}'); background-position: center; background-size: cover; background-repeat: none;">
+    </div>
+
+    <div>
+      <div class="itemField itemCategory">
+        <h6>Featured in this article</h6>
+      </div>
+      <div class="itemField">
+        <a href="{{page.link1}}">{{page.title1}}</a>
+      </div>
+      <div class="itemField">
+        <a href="{{page.link2}}">{{page.title2}}</a>
+      </div>
+      <div class="itemField">
+        <a href="{{page.link3}}">{{page.title3}}</a>
+      </div>
+      <div class="itemField">
+        <a href="{{page.link4}}">{{page.title4}}</a>
+      </div>
+    </div>
+
+  </section>
+
+
+
+<!-- MAIN CONTENT -->
+
+  <div class="col-7_sm-12_xs-12 itemContent">
+    {{content}}
+  </div>
+
+</div>

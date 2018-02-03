@@ -10,26 +10,23 @@ keywords: melbourne, restaurant, bar, food, shop, shopping, sightseeing, culture
   </div>
 </div>
 
+<div class="fpHeading">
+  <h2>Latest articles</h2>
+</div>
+
 <div class="grid">
   <div class="col-6_sm-12">
     <div class="fpCategory">
-      <h2>Drink</h2>
+      <a href="/drink.html"><h2>Drink</h2></a>
 
       {% for post in site.categories.Drink limit:1 %}
 
-        <div class="fpItem grid">
-          <div class="col-4_sm-6_xs-12 fpCatImage" style="background-image: url('{{ post.image }}'); background-repeat: no-repeat; background-size: cover; background-position: center;">
+        <div class="fpItem">
+          <div class="col-6_xs-12 fpCatImage" style="background-image: url('{{ post.image }}'); background-repeat: no-repeat; background-size: cover; background-position: center;">
           </div>
-          <div class="col-8_sm-6_xs-12">
-            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-            <p class="summary">
-              <span class="date"> {{ post.date | date: '%B %d, %Y' }} </span>
-            </p>
-            <p>
-              {{ post.excerpt }}
-            </p>
+          <div class="fpCatTitle">
+            <h3><a href="{{ post.url }}">{{ post.title }} </a></h3>
           </div>
-
         </div>
 
       {% endfor %}
@@ -39,23 +36,16 @@ keywords: melbourne, restaurant, bar, food, shop, shopping, sightseeing, culture
 
   <div class="col-6_sm-12">
     <div class="fpCategory">
-      <h2>Eat</h2>
+      <a href="/eat.html"><h2>Eat</h2></a>
 
       {% for post in site.categories.Eat limit:1 %}
 
-        <div class="fpItem grid">
-          <div class="col-4_sm-6_xs-12 fpCatImage" style="background-image: url('{{ post.image }}'); background-repeat: no-repeat; background-size: cover; background-position: center;">
+        <div class="fpItem">
+          <div class="col-6_xs-12 fpCatImage" style="background-image: url('{{ post.image }}'); background-repeat: no-repeat; background-size: cover; background-position: center;">
           </div>
-          <div class="col-8_sm-6_xs-12">
+          <div class="fpCatTitle">
             <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-            <p class="summary">
-              <span class="date"> {{ post.date | date: '%B %d, %Y' }} </span>
-            </p>
-            <p>
-              {{ post.excerpt }}
-            </p>
           </div>
-
         </div>
 
       {% endfor %}
@@ -64,23 +54,16 @@ keywords: melbourne, restaurant, bar, food, shop, shopping, sightseeing, culture
   </div>
   <div class="col-6_sm-12">
     <div class="fpCategory">
-      <h2>Shop</h2>
+      <a href="/shop.html"><h2>Shop</h2></a>
 
       {% for post in site.categories.Shop limit:1 %}
 
-        <div class="fpItem grid">
-          <div class="col-4_sm-6_xs-12 fpCatImage" style="background-image: url('{{ post.image }}'); background-repeat: no-repeat; background-size: cover; background-position: center;">
+        <div class="fpItem">
+          <div class="col-6_xs-12 fpCatImage" style="background-image: url('{{ post.image }}'); background-repeat: no-repeat; background-size: cover; background-position: center;">
           </div>
-          <div class="col-8_sm-6_xs-12">
+          <div class="fpCatTitle">
             <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-            <p class="summary">
-              <span class="date"> {{ post.date | date: '%B %d, %Y' }} </span>
-            </p>
-            <p>
-              {{ post.excerpt }}
-            </p>
           </div>
-
         </div>
 
       {% endfor %}
@@ -89,23 +72,16 @@ keywords: melbourne, restaurant, bar, food, shop, shopping, sightseeing, culture
   </div>
   <div class="col-6_sm-12">
     <div class="fpCategory">
-      <h2>See</h2>
+      <a href="/see.html"><h2>See</h2></a>
 
       {% for post in site.categories.See limit:1 %}
 
-        <div class="fpItem grid">
-          <div class="col-4_sm-6_xs-12 fpCatImage" style="background-image: url('{{ post.image }}'); background-repeat: no-repeat; background-size: cover; background-position: center;">
+        <div class="fpItem">
+          <div class="col-6_xs-12 fpCatImage" style="background-image: url('{{ post.image }}'); background-repeat: no-repeat; background-size: cover; background-position: center;">
           </div>
-          <div class="col-8_sm-6_xs-12">
+          <div class="fpCatTitle">
             <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-            <p class="summary">
-              <span class="date"> {{ post.date | date: '%B %d, %Y' }} </span>
-            </p>
-            <p>
-              {{ post.excerpt }}
-            </p>
           </div>
-
         </div>
 
       {% endfor %}
@@ -113,8 +89,29 @@ keywords: melbourne, restaurant, bar, food, shop, shopping, sightseeing, culture
     </div>
   </div>
 </div>
+<!-- <div>
+  <svg height="210" width="500">
+    <line x1="0" y1="0" x2="200" y2="0" style="stroke:rgb(255,0,0);stroke-width:2" />
+  </svg>
+</div> -->
 
-<div id="instagram" class="social">
+
+<div class="fpHeading">
+  <a href="/features.html"><h2>Features</h2></a>
+</div>
+
+<div>
+  <div class="fpFeature grid">
+    <div class="col-4_sm-6_xs-12 fpCatImage" style="background-image: url('../images/firstdate.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center;">
+    </div>
+
+    <div class="col-8_sm-6_xs-12 fpFeatureText">
+      <h3><a href="/firstdate.html">Some ideas for a Melbourne first date</a></h3>
+    </div>
+  </div>
+</div>
+
+<div id="instagram" class="fpHeading">
   <a href="https://www.instagram.com/melbournegoodlife/" target="_blank"><h2>Instagram</h2></a>
       <!-- SnapWidget -->
     <script src="https://snapwidget.com/js/snapwidget.js"></script>
