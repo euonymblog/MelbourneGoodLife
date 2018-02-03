@@ -149,9 +149,8 @@ padding-top: 2%;
   background-image: url('../images/laneway.png');
   min-height: 70vh;
   text-align: center;
-  padding: 7%;
-
 }
+
 
 /* .social h2 {
   margin: 3% 0 3% 0;
@@ -184,7 +183,7 @@ padding-top: 2%;
   color: white;
 }
 
- .fpFeature h3 {
+ .fpFeatureText h3 {
    text-align: center;
    line-height: 50vh;
    margin: 0, 3%, 0, 3%;
@@ -201,20 +200,57 @@ padding-top: 2%;
 
 
 
+@media only screen and (min-width: 800px) {
+
+  #heroImage h1 {
+    line-height: 70vh;
+  }
+
+}
 
  @media only screen and (max-width: 800px) {
 
    #heroImage {
-     background-image: none;
-     background-color: darkgrey;
+     background-repeat: no-repeat;
+     background-size: 100%;
+     background-image: url('../images/laneway.png');
+     min-height: 37vh;
+     text-align: center;
+   }
+
+   #heroImage h1 {
+     padding-top: 15%;
    }
 
    .catPageImage {
      min-height: 30vh;
    }
 
-   .fpFeature h3 {
+   .fpFeatureText h3 {
+     line-height: 10vh;
+   }
+ }
+
+ @media only screen and (max-width: 500px) {
+
+   #heroImage h1 {
+     padding-top: 30%;
+     font-size: 3rem;
+   }
+
+   .fpFeatureText h3 {
+     line-height: 10vh;
+   }
+
+   header {
+     display: none;
+   }
+
+   .catPageImage {
+     min-height: 30vh;
+   }
+
+   .fpFeatureText h3 {
      text-align: center;
-     margin: 0, 3%, 0, 3%;
    }
  }
