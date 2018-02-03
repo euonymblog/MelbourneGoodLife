@@ -1,7 +1,7 @@
 ---
 layout: post
 title: XM4
-image:
+image: /uploads/screen-shot-2018-02-03-at-17-40-07.png
 category: Drink
 address: '143, Chapel Street, St Kilda'
 website: 'https://www.xm4.com.au/'
@@ -15,7 +15,7 @@ breakfast: true
 dinner: true
 wifi: false
 disability: false
-date: 2018-01-13 11:30:00
+date: 2018-02-03 18:00:00
 ---
 
 
@@ -25,4 +25,4 @@ That all changed when XM4 opened its doors. It was always going to attract our a
 
 We definitely started going there because of my obsession with cheese and they didn't disappoint on that front. Claire who runs front-of-house is an alumna of [Milk the Cow](https://milkthecow.com.au/) and really knows her cheese-stuff. Many were the nerdy conversations about the contents of the cheese cabinet! The charcuterie selection is also worth a mention. There is also a great wine list - predominantly Australian, mostly small wineries making interesting wines. There is also Young Henry's on draft and the fabulous Colonial beers in cans.
 
-We love our new place in Seddon, but we do wish we could have picked up XM4 and brought it over this side of town with us.
+We love our new place in Seddon, but we do wish we could have picked up XM4 and brought it over this side of town with us.&nbsp;
