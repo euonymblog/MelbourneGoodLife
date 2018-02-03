@@ -213,4 +213,8 @@ padding-top: 2%;
      min-height: 30vh;
    }
 
+   .fpFeature h3 {
+     text-align: center;
+     margin: 0, 3%, 0, 3%;
+   }
  }
